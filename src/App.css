@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -51,30 +51,31 @@ div.post div.texts h2 {
   font-size: 1.8rem;
 }
 
-div.post p.info{
-    margin: 6px 0;
-    color: #888;
-    font-size: .7rem;
-    font-weight: bold;
-    display: flex;
-    gap: 10px;
+div.post p.info {
+  margin: 6px 0;
+  color: #888;
+  font-size: 0.7rem;
+  font-weight: bold;
+  display: flex;
+  gap: 10px;
 }
 
-div.post p.info a.author{
-    color: #000;
+div.post p.info a.author {
+  color: #000;
 }
 
-div.post p.summary{
-    margin: 10px 0;
-    line-height: 1.4rem;
+div.post p.summary {
+  margin: 10px 0;
+  line-height: 1.4rem;
 }
 
-form.login, form.register{
+form.login,
+form.register {
   max-width: 400px;
   margin: 0 auto;
 }
 
-input{
+input {
   display: block;
   margin-bottom: 5px;
   width: 100%;
@@ -84,7 +85,7 @@ input{
   background-color: #fff;
 }
 
-button{
+button {
   width: 100%;
   display: block;
   background-color: #555;
@@ -93,6 +94,17 @@ button{
   padding: 7px;
 }
 
-form h1{
+form h1 {
   text-align: center;
+}
+
+.avatar-container {
+  text-align: center;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
 }
