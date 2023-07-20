@@ -7,6 +7,7 @@ export default function Header() {
         My blog
       </Link>
       <nav>
+        <Link to="/features">Features</Link>
         <Link to="/login">Login</Link>
         <Link to="/register">Register</Link>
       </nav>
