@@ -5,8 +5,8 @@ export default function Header() {
         My blog
       </a>
       <nav>
-        <a href>Login</a>
-        <a href>Register</a>
+        <a href="/login">Login</a>
+        <a href="/register">Register</a>
       </nav>
     </header>
   );
